@@ -62,7 +62,7 @@
 <body>
 <div class="container">
   <h1>Política de Privacidade — MaiHub</h1>
-  <div class="updated"><strong>Última atualização:</strong> 22 de julho de 2026</div>
+  <div class="updated"><strong>Última atualização:</strong> 15 de agosto de 2026</div>
 
   <p>Esta Política de Privacidade descreve como o <strong>MaiHub</strong> ("aplicativo", "app") coleta, usa e protege informações pessoais, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 — LGPD).</p>
 
@@ -80,7 +80,7 @@
   <h2>3. Dados que coletamos</h2>
   <p><strong>3.1. Dados da conta da Usuária</strong></p>
   <ul>
-    <li>Nome e e-mail, usados para criar e autenticar a conta.</li>
+    <li>Nome, sobrenome, WhatsApp e e-mail, usados para criar e autenticar a conta e permitir contato direto com a Usuária quando necessário.</li>
     <li>Senha (armazenada de forma criptografada pelo nosso provedor de autenticação, nunca em texto simples).</li>
     <li><strong>Login com Google (quando disponível):</strong> se a Usuária optar por criar sua conta ou entrar usando "Login com Google", recebemos do Google o nome, e-mail e foto de perfil autorizados por ela na tela de permissão do Google, usados para criar/autenticar a conta da mesma forma que o cadastro por e-mail e senha. Não temos acesso à senha da conta Google da Usuária, nem a nenhum outro dado da conta Google além do autorizado nessa tela. O uso da tela de login do Google também está sujeito à política de privacidade do próprio Google.</li>
   </ul>
@@ -93,20 +93,25 @@
     <li>Lançamentos financeiros (receitas e despesas) do negócio da Usuária.</li>
     <li>Perfil do negócio (nome, foto, endereço, contato, horário de funcionamento).</li>
     <li>Fotos enviadas voluntariamente (foto do perfil do negócio, fotos de pacotes).</li>
+    <li>Contatos do celular (nome e telefone), apenas se e quando a Usuária optar por importar clientes diretamente da agenda de contatos do aparelho. Só os contatos que ela selecionar manualmente são copiados para o cadastro de clientes do MaiHub — o app não acessa nem envia a agenda de contatos inteira para nossos servidores.</li>
   </ul>
 
   <p><strong>3.3. Dados coletados automaticamente</strong></p>
   <ul>
-    <li>Não coletamos dados de localização, publicidade ou rastreamento entre apps. Não usamos ferramentas de analytics ou rastreamento de terceiros.</li>
+    <li>No aplicativo web (agendamaihub.com), usamos o <strong>Meta Pixel</strong> (Facebook/Instagram Ads) para entender quando um novo cadastro veio de um anúncio. Ele registra automaticamente a visualização da página e a conclusão do cadastro (sem incluir senha ou outros dados sensíveis), informação compartilhada com a Meta conforme a política de privacidade dela. Não usamos esse recurso para rastrear a Usuária fora do MaiHub.</li>
+    <li>Não coletamos dados de localização do aparelho.</li>
     <li>Notificações locais de lembrete de atendimento são geradas no próprio aparelho da Usuária e não são enviadas a servidores externos.</li>
   </ul>
 
   <h2>4. Base legal e finalidade do tratamento</h2>
   <table>
     <tr><th>Dado</th><th>Finalidade</th><th>Base legal (LGPD)</th></tr>
-    <tr><td>Nome, e-mail, senha da Usuária (ou nome/e-mail/foto via Login com Google)</td><td>Criar e autenticar a conta</td><td>Execução de contrato (Art. 7º, V)</td></tr>
+    <tr><td>Nome, sobrenome, WhatsApp, e-mail, senha da Usuária (ou nome/e-mail/foto via Login com Google)</td><td>Criar e autenticar a conta, permitir contato direto</td><td>Execução de contrato (Art. 7º, V)</td></tr>
     <tr><td>Dados de clientes, agendamentos, financeiro, perfil do negócio</td><td>Permitir que a Usuária opere seu negócio dentro do app</td><td>Execução de contrato, a pedido da Usuária (Art. 7º, V)</td></tr>
     <tr><td>Fotos enviadas</td><td>Exibir perfil/pacotes no app</td><td>Consentimento da Usuária ao fazer o upload (Art. 7º, I)</td></tr>
+    <tr><td>Contatos do celular (quando importados)</td><td>Cadastrar Clientes a partir da agenda do aparelho, a pedido da Usuária</td><td>Execução de contrato, a pedido da Usuária (Art. 7º, V)</td></tr>
+    <tr><td>Nome e telefone da Cliente (via WhatsApp automático)</td><td>Enviar confirmação automática de agendamento, quando ativado pela Usuária</td><td>Execução de contrato / legítimo interesse (Art. 7º, IX)</td></tr>
+    <tr><td>Evento de cadastro (Meta Pixel)</td><td>Medir a origem de novos cadastros vindos de anúncios</td><td>Legítimo interesse (Art. 7º, IX)</td></tr>
   </table>
 
   <h2>5. Como usamos os dados</h2>
@@ -115,14 +120,24 @@
     <li>Permitir que a Usuária gerencie clientes, agendamentos, serviços e finanças do próprio negócio.</li>
     <li>Autenticar o acesso à conta.</li>
     <li>Enviar lembretes locais de atendimento no próprio aparelho da Usuária.</li>
+    <li>Enviar confirmações automáticas de agendamento via WhatsApp às Clientes, quando a Usuária ativa esse recurso.</li>
+    <li>Responder perguntas e executar comandos através do assistente virtual (Maitê), quando a Usuária o utiliza.</li>
   </ul>
-  <p>Não vendemos, alugamos nem compartilhamos dados com terceiros para fins de marketing ou publicidade.</p>
+  <p>Para essas funcionalidades, compartilhamos apenas os dados estritamente necessários com os seguintes prestadores de serviço, que atuam como operadores em nosso nome:</p>
+  <ul>
+    <li><strong>Meta (API do WhatsApp Business):</strong> nome e telefone da Cliente, para envio da confirmação automática de agendamento.</li>
+    <li><strong>Meta (Pixel de anúncios):</strong> evento de cadastro no app web, conforme item 3.3.</li>
+    <li><strong>Anthropic:</strong> mensagens trocadas com o assistente virtual (Maitê, recurso do plano Business), para gerar as respostas.</li>
+    <li><strong>Stripe:</strong> dados de pagamento das assinaturas dos planos pagos.</li>
+  </ul>
+  <p>Não vendemos dados a terceiros, nem os compartilhamos para fins de marketing de terceiros — os compartilhamentos acima servem exclusivamente para o funcionamento das próprias funcionalidades que a Usuária escolhe usar.</p>
 
   <h2>6. Onde os dados ficam armazenados (transferência internacional)</h2>
   <p>Os dados são armazenados de forma segura na nuvem através do <strong>Supabase</strong> (infraestrutura de banco de dados e autenticação), com controle de acesso que garante que cada conta só visualiza seus próprios dados.</p>
   <p>Os dados necessários ao funcionamento do MaiHub poderão ser armazenados em servidores seguros localizados fora do Brasil. Essa <strong>transferência internacional</strong> é necessária para a prestação dos serviços oferecidos pelo aplicativo, e é permitida pela LGPD (Art. 33) mediante consentimento específico e destacado da Usuária para essa finalidade, obtido no momento da criação da conta.</p>
   <p>Ao criar uma conta no MaiHub e aceitar esta Política de Privacidade, a Usuária consente expressamente com essa transferência internacional.</p>
   <p>Trabalhamos para que, no futuro, os dados também possam ser armazenados em servidores localizados no Brasil.</p>
+  <p>Os prestadores mencionados na seção 5 (Meta, Anthropic, Stripe) também podem processar dados fora do Brasil, sujeitos às respectivas políticas de privacidade e às mesmas bases legais desta política.</p>
 
   <h2>7. Seus direitos (LGPD)</h2>
   <p>A Usuária pode, a qualquer momento, solicitar:</p>
